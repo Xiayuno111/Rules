@@ -68,8 +68,8 @@ payload:
   - DOMAIN-SUFFIX,mathpix.com
   - DOMAIN-KEYWORD,mathpix
  # QQ音乐
-  - DOMAIN-SUFFIX,qqmusic.com,Tencent
-  - DOMAIN-KEYWORD,qqmusic,Tencent
+  - DOMAIN-SUFFIX,qqmusic.com
+  - DOMAIN-KEYWORD,qqmusic
  # 哈啰单车
   - DOMAIN-SUFFIX,hellobike.com
   - DOMAIN-SUFFIX,bspapp.com
