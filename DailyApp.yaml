@@ -34,9 +34,7 @@ payload:
   - DOMAIN,edge.icloud-content.com.cn
   - DOMAIN,p217-content.icloud.com.cn
   - DOMAIN,p217-ckdatabase-china.icloud.com
-  - DOMAIN,p217-ckdevice-china.icloud.com
- # 中国电信
-  - DOMAIN-SUFFIX,cn # amplitude
+  - DOMAIN,p217-ckdevice-china.icloud.com # amplitude
   - DOMAIN-SUFFIX,amplitude.com
   - DOMAIN-SUFFIX,ronghub.com # umeng
   - DOMAIN-SUFFIX,umeng.com,REJECT # 高德地图
