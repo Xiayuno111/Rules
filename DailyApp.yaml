@@ -36,7 +36,7 @@ payload:
   - DOMAIN,p217-ckdatabase-china.icloud.com
   - DOMAIN,p217-ckdevice-china.icloud.com
  # 中国电信
-  - DOMAIN-SUFFIX,189.cn # amplitude
+  # - DOMAIN-SUFFIX,189.cn # amplitude
   - DOMAIN-SUFFIX,amplitude.com
   - DOMAIN-SUFFIX,ronghub.com # umeng
   - DOMAIN-SUFFIX,umeng.com,REJECT # 高德地图
