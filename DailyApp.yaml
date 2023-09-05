@@ -391,6 +391,9 @@ payload:
   - DOMAIN-SUFFIX,peiwanlu.com
   - DOMAIN-SUFFIX,snapplay.com
   - DOMAIN-SUFFIX,wanjiashow.com
+  - DOMAIN-SUFFIX,ppio.cloud
+  - DOMAIN-SUFFIX,szbdyd.com
+  - DOMAIN-SUFFIX,hyext.com
   ## 今日头条
   - DOMAIN-SUFFIX,toutiao.com
   - DOMAIN-SUFFIX,toutiaoapi.com
