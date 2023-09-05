@@ -42,7 +42,7 @@ payload:
   - DOMAIN-SUFFIX,umeng.com,REJECT # 高德地图
   - DOMAIN-SUFFIX,subconnect.org
   - DOMAIN-SUFFIX,qchannel01.cn
-  - DOMAIN-SUFFIX,amap.com # 简书
+  # - DOMAIN-SUFFIX,amap.com # 简书
   - DOMAIN-SUFFIX,ibreader.com
  # 小红书
   - DOMAIN-SUFFIX,xiaohongshu.com
