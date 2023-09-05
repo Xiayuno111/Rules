@@ -6,7 +6,34 @@ payload:
 ##- IP-CIDR,103.41.167.236/32,no-resolve
 ##- IP-CIDR,118.89.204.198/32,no-resolve
 ##- IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
- # 中国电信
+ 
+ # TradingView
+  - DOMAIN-SUFFIX,tradingview.com
+# CryptoBubble
+  - DOMAIN,cryptobubbles.net
+ # Flighty
+  - DOMAIN,api.flightyapp.com
+ # 苹果天气
+  - DOMAIN,api.weatherlive.info
+ # AI Builder
+  - DOMAIN-SUFFIX,bspapp.com
+ # BiYaPay
+  - DOMAIN-KEYWORD,biya
+  - DOMAIN,www.hkd.mobi
+  - DOMAIN,mizframa.foxfortmobile.com
+ # Libvio
+  - DOMAIN-KEYWORD,libvio
+ # 瑞幸咖啡
+  - DOMAIN-SUFFIX,luckincoffeecdn.com
+  - DOMAIN-SUFFIX,lkcoffee.com
+  - DOMAIN-KEYWORD,coffee
+ # 一生足迹
+  - DOMAIN-SUFFIX,mapbox.com
+ # iCloud
+  - DOMAIN,edge.icloud-content.com.cn
+  - DOMAIN,p217-content.icloud.com.cn
+  - DOMAIN,p217-ckdatabase-china.icloud.com
+  - DOMAIN,p217-ckdevice-china.icloud.com # 中国电信
   - DOMAIN-SUFFIX,189.cn # amplitude
   - DOMAIN-SUFFIX,amplitude.com
   - DOMAIN-SUFFIX,ronghub.com # umeng
