@@ -38,7 +38,7 @@ payload:
  # 中国电信
    # - DOMAIN-SUFFIX,189.cn # amplitude
   - DOMAIN-SUFFIX,amplitude.com
-  - DOMAIN-SUFFIX,ronghub.com # umeng
+  # - DOMAIN-SUFFIX,ronghub.com # umeng
   - DOMAIN-SUFFIX,umeng.com,REJECT # 高德地图
   - DOMAIN-SUFFIX,subconnect.org
   - DOMAIN-SUFFIX,qchannel01.cn
