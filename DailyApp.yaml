@@ -85,7 +85,6 @@ payload:
  # OKX
   - DOMAIN-SUFFIX,okex.com
   - DOMAIN-SUFFIX,okx.com
-
   - DOMAIN-KEYWORD,okexapp
   - DOMAIN-KEYWORD,okcoin
   - DOMAIN-SUFFIX,appcenter.ms
