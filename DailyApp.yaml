@@ -36,17 +36,13 @@ payload:
   - DOMAIN,p217-ckdatabase-china.icloud.com
   - DOMAIN,p217-ckdevice-china.icloud.com
 # 中国电信
-  - DOMAIN-SUFFIX,189.cn
- # amplitude
+  - DOMAIN-SUFFIX,189.cn,DIRECT # amplitude
   - DOMAIN-SUFFIX,amplitude.com
-  - DOMAIN-SUFFIX,ronghub.com
- # umeng
-  - DOMAIN-SUFFIX,umeng.com,REJECT
- # 高德地图
+  - DOMAIN-SUFFIX,ronghub.com # umeng
+  - DOMAIN-SUFFIX,umeng.com,REJECT # 高德地图
   - DOMAIN-SUFFIX,subconnect.org
   - DOMAIN-SUFFIX,qchannel01.cn
-  - DOMAIN-SUFFIX,amap.com
- # 简书
+  - DOMAIN-SUFFIX,amap.com # 简书
   - DOMAIN-SUFFIX,ibreader.com
  # 小红书
   - DOMAIN-SUFFIX,xiaohongshu.com
@@ -84,16 +80,15 @@ payload:
   - DOMAIN-SUFFIX,fenqile.com
  # OKX
   - DOMAIN-SUFFIX,okex.com
-  - DOMAIN-SUFFIX,okx.com
-  - DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net,Selections
-  - DOMAIN-KEYWORD,okexapp
-  - DOMAIN-KEYWORD,okcoin
+  - DOMAIN-SUFFIX,okx.com 
+  - DOMAIN-SUFFIX,okcoin.com
+  # - DOMAIN-KEYWORD,okexapp
+  # - DOMAIN-KEYWORD,okcoin
   - DOMAIN-SUFFIX,appcenter.ms
   - DOMAIN-SUFFIX,appsflyer.com
   - DOMAIN-SUFFIX,onesignal.com
   - DOMAIN-SUFFIX,rong-rtc.com
   - DOMAIN-SUFFIX,cloudfront.net
-  - DOMAIN-SUFFIX,okcoin.com
   # - DOMAIN,d.*\.net
  # 地址判断 
   - DOMAIN,app-measurement.com
@@ -212,15 +207,13 @@ payload:
   - DOMAIN-SUFFIX,wuxianhaibao.com
   - DOMAIN-SUFFIX,yitao.com
   - DOMAIN-SUFFIX,ztcexam.com
-  - DOMAIN-SUFFIX,zuodao.com
- # ABC (农业银行)
+  - DOMAIN-SUFFIX,zuodao.com # ABC (农业银行)
   - DOMAIN-SUFFIX,95599.cn
   - DOMAIN-SUFFIX,abchina.com
   - DOMAIN-SUFFIX,openaboc.cn
   - DOMAIN-SUFFIX,openaboc.com.cn
   - DOMAIN-SUFFIX,openaboc.com
-  - DOMAIN-SUFFIX,bscabank.com
- # BOC (中国银行)
+  - DOMAIN-SUFFIX,bscabank.com # BOC (中国银行)
   - DOMAIN-SUFFIX,bank-of-china.com
   - DOMAIN-SUFFIX,bankofchina.com
   - DOMAIN-SUFFIX,boc.cn
@@ -242,15 +235,13 @@ payload:
   - DOMAIN-SUFFIX,bocigroup.com
   - DOMAIN-SUFFIX,bocim.com
   - DOMAIN-SUFFIX,bocservices.com.cn
-  - DOMAIN-SUFFIX,ftcwifi.com
- # BOCOM (交通银行)
+  - DOMAIN-SUFFIX,ftcwifi.com # BOCOM (交通银行)
   - DOMAIN-SUFFIX,bankcomm.com
   - DOMAIN-SUFFIX,95559.com.cn
   - DOMAIN-SUFFIX,95559.sh.cn
   - DOMAIN-SUFFIX,bankcomm.com.tw
   - DOMAIN-SUFFIX,bankcomm.com.au
-  - DOMAIN-SUFFIX,bankcomm.com.mo
- # CCB (建设银行)
+  - DOMAIN-SUFFIX,bankcomm.com.mo # CCB (建设银行)
   - DOMAIN-SUFFIX,ccb-life.com.cn
   - DOMAIN-SUFFIX,ccb.cn
   - DOMAIN-SUFFIX,ccb.com
@@ -268,8 +259,7 @@ payload:
   - DOMAIN-SUFFIX,ccblife-test.com.cn
   - DOMAIN-SUFFIX,ccbseoul.com
   - DOMAIN-SUFFIX,ccbtrust.com.cn
-  - DOMAIN-SUFFIX,ccbxt.com
- # CEB (光大银行)
+  - DOMAIN-SUFFIX,ccbxt.com # CEB (光大银行)
   - DOMAIN-SUFFIX,cebbank.com
   - DOMAIN-SUFFIX,ceblease.com
   - DOMAIN-SUFFIX,eb-ind.com
@@ -284,13 +274,11 @@ payload:
   - DOMAIN-SUFFIX,ebscn.com
   - DOMAIN-SUFFIX,everbright.com
   - DOMAIN-SUFFIX,secec.com
-  - DOMAIN-SUFFIX,sunlife-everbright.com
- # CGB (广发银行)
+  - DOMAIN-SUFFIX,sunlife-everbright.com # CGB (广发银行)
   - DOMAIN-SUFFIX,95508.com
   - DOMAIN-SUFFIX,cgbchina.cn
   - DOMAIN-SUFFIX,cgbchina.com.cn
-  - DOMAIN-SUFFIX,gdb.com.cn
- # CITIC (中信银行)
+  - DOMAIN-SUFFIX,gdb.com.cn # CITIC (中信银行)
   - DOMAIN-SUFFIX,citic
   - DOMAIN-SUFFIX,chinaamc.com
   - DOMAIN-SUFFIX,citic-prudential.com.cn
@@ -318,8 +306,7 @@ payload:
   - DOMAIN-SUFFIX,ecitic.net
   - DOMAIN-SUFFIX,group.citic
   - DOMAIN-SUFFIX,nic.citic
-  - DOMAIN-SUFFIX,集团.中信
- # CMB (招商银行)
+  - DOMAIN-SUFFIX,集团.中信 # CMB (招商银行)
   - DOMAIN-SUFFIX,8008205555.cn
   - DOMAIN-SUFFIX,8008205555.com
   - DOMAIN-SUFFIX,cignacmb-ipmi.com
@@ -340,8 +327,7 @@ payload:
   - DOMAIN-SUFFIX,cmf.ltd
   - DOMAIN-SUFFIX,cmfchina.com
   - DOMAIN-SUFFIX,cmfunds.cn
-  - DOMAIN-SUFFIX,test-cignacmb.com
- # ICBC (工商银行)
+  - DOMAIN-SUFFIX,test-cignacmb.com # ICBC (工商银行)
   - DOMAIN-SUFFIX,95588.com
   - DOMAIN-SUFFIX,95588.com.cn
   - DOMAIN-SUFFIX,dccnet.com.cn
@@ -399,12 +385,10 @@ payload:
   - DOMAIN-SUFFIX,icbcswiss.com
   - DOMAIN-SUFFIX,icbcthai.com
   - DOMAIN-SUFFIX,icbkfs.com
-  - DOMAIN-SUFFIX,icbkus.com
- # PSBC (邮政储蓄)
+  - DOMAIN-SUFFIX,icbkus.com # PSBC (邮政储蓄)
   - DOMAIN-SUFFIX,95580.net
   - DOMAIN-SUFFIX,psbc.com
-  - DOMAIN-SUFFIX,psbcoa.com.cn
- # UnionPay (中国银联)
+  - DOMAIN-SUFFIX,psbcoa.com.cn # UnionPay (中国银联)
   - DOMAIN-SUFFIX,95516.com
   - DOMAIN-SUFFIX,95516.net
   - DOMAIN-SUFFIX,chinaunionpay.com
@@ -416,8 +400,7 @@ payload:
   - DOMAIN-SUFFIX,unionpay.net
   - DOMAIN-SUFFIX,unionpayintl.cn
   - DOMAIN-SUFFIX,unionpayintl.com
-  - DOMAIN-SUFFIX,unionpaysecure.com
- # 蓝奏云
+  - DOMAIN-SUFFIX,unionpaysecure.com # 蓝奏云
   - DOMAIN-SUFFIX,baidupan.com
   - DOMAIN-SUFFIX,lanzou.com
   - DOMAIN-SUFFIX,lanzoub.com
@@ -441,8 +424,7 @@ payload:
   - DOMAIN-SUFFIX,lanzouw.com
   - DOMAIN-SUFFIX,lanzoux.com
   - DOMAIN-SUFFIX,lanzouy.com
-  - DOMAIN-SUFFIX,woozooo.com
- # 苏宁
+  - DOMAIN-SUFFIX,woozooo.com # 苏宁
   - DOMAIN-SUFFIX,10035.com.cn
   - DOMAIN-SUFFIX,chinadzfp.com
   - DOMAIN-SUFFIX,cloudytrace.cn
@@ -473,8 +455,7 @@ payload:
   - DOMAIN-SUFFIX,suningyunyou.cn
   - DOMAIN-SUFFIX,suningyunyou.com
   - DOMAIN-SUFFIX,wuliuyun.com
-  - DOMAIN-SUFFIX,yifubao.com
- # 斗鱼
+  - DOMAIN-SUFFIX,yifubao.com # 斗鱼
   - DOMAIN-SUFFIX,douyu.com
   - DOMAIN-SUFFIX,douyu.tv
   - DOMAIN-SUFFIX,douyucdn.cn
@@ -484,8 +465,7 @@ payload:
   - DOMAIN-SUFFIX,douyupcdn.cn
   - DOMAIN-SUFFIX,douyuscdn.com
   - DOMAIN-SUFFIX,doyonoc.com
-  - DOMAIN-SUFFIX,oywtv.com
- # 虎牙
+  - DOMAIN-SUFFIX,oywtv.com # 虎牙
   - DOMAIN-SUFFIX,huya.com
   - DOMAIN-SUFFIX,huyagame.cn
   - DOMAIN-SUFFIX,huyaos.com
@@ -495,8 +475,7 @@ payload:
   - DOMAIN-SUFFIX,wanjiashow.com
   - DOMAIN-SUFFIX,ppio.cloud
   - DOMAIN-SUFFIX,szbdyd.com
-  - DOMAIN-SUFFIX,hyext.com
- # 今日头条
+  - DOMAIN-SUFFIX,hyext.com # 今日头条
   - DOMAIN-SUFFIX,toutiao.com
   - DOMAIN-SUFFIX,toutiaoapi.com
   - DOMAIN-SUFFIX,toutiaocdn.com
@@ -537,22 +516,19 @@ payload:
   - DOMAIN-SUFFIX,wowenwen.com
   - DOMAIN-SUFFIX,xinyan.cn
   - DOMAIN-SUFFIX,yidianliulan.cn
-  - DOMAIN-SUFFIX,yidianliulan.com
- # 美团
+  - DOMAIN-SUFFIX,yidianliulan.com # 美团
   - DOMAIN-SUFFIX,dianping.com
   - DOMAIN-SUFFIX,maoyan.com
   - DOMAIN-SUFFIX,meituan.com
   - DOMAIN-SUFFIX,meituan.net
   - DOMAIN-SUFFIX,mtyun.com
   - DOMAIN-SUFFIX,neixin.cn
-  - DOMAIN-SUFFIX,sankuai.com
- # 坚果云
+  - DOMAIN-SUFFIX,sankuai.com # 坚果云
   - DOMAIN-SUFFIX,gdfgq.club
   - DOMAIN-SUFFIX,jianguopuzi.com
   - DOMAIN-SUFFIX,jianguoyun.com
   - DOMAIN-SUFFIX,nutstore.net
-  - DOMAIN-SUFFIX,nutstorehq.com
- # 滴滴
+  - DOMAIN-SUFFIX,nutstorehq.com # 滴滴
   - DOMAIN-SUFFIX,apptaxi.com.cn
   - DOMAIN-SUFFIX,cxyule.com
   - DOMAIN-SUFFIX,didi-food.com
@@ -577,8 +553,7 @@ payload:
   - DOMAIN-SUFFIX,juyanwenjuan.com
   - DOMAIN-SUFFIX,udache.com
   - DOMAIN-SUFFIX,xiaojuchefu.cn
-  - DOMAIN-SUFFIX,xiaojukeji.com
- # CSDN
+  - DOMAIN-SUFFIX,xiaojukeji.com # CSDN
   - DOMAIN-SUFFIX,codechina.net
   - DOMAIN-SUFFIX,csdn.com
   - DOMAIN-SUFFIX,csdn.net
@@ -600,8 +575,7 @@ payload:
   - DOMAIN-SUFFIX,tinymind.cn
   - DOMAIN-SUFFIX,tinymind.com
   - DOMAIN-SUFFIX,tinymind.com.cn
-  - DOMAIN-SUFFIX,topcto50.com
- # 115
+  - DOMAIN-SUFFIX,topcto50.com # 115
   - DOMAIN-SUFFIX,115.com
   - DOMAIN-SUFFIX,115cdn.com
   - DOMAIN-SUFFIX,115cdn.net
@@ -610,8 +584,7 @@ payload:
   - DOMAIN-SUFFIX,116cd.com
   - DOMAIN-SUFFIX,116cd.net
   - DOMAIN-SUFFIX,anxia.com
-  - DOMAIN-SUFFIX,sq.cc
- # 本地/局域网地址 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
+  - DOMAIN-SUFFIX,sq.cc # LocalAreaNetwork本地/局域网地址 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
   - DOMAIN-SUFFIX,ip6-localhost
   - DOMAIN-SUFFIX,ip6-loopback
   - DOMAIN-SUFFIX,lan
@@ -628,8 +601,7 @@ payload:
   - IP-CIDR6,::1/128,no-resolve
   - IP-CIDR6,fc00::/7,no-resolve
   - IP-CIDR6,fe80::/10,no-resolve
-  - IP-CIDR6,fd00::/8,no-resolve
- # Router managed 路由器管理域名
+  - IP-CIDR6,fd00::/8,no-resolve # Router managed 路由器管理域名
   - DOMAIN,instant.arubanetworks.com
   - DOMAIN,setmeup.arubanetworks.com
   - DOMAIN,router.asus.com
@@ -646,8 +618,7 @@ payload:
   - DOMAIN-SUFFIX,tendawifi.com
   - DOMAIN-SUFFIX,zte.home
   - DOMAIN-SUFFIX,tplogin.cn
-  - DOMAIN-SUFFIX,wifi.cmcc
- # 百度
+  - DOMAIN-SUFFIX,wifi.cmcc # 百度
   - DOMAIN-SUFFIX,baidu.com
   - DOMAIN-SUFFIX,baidubcr.com
   - DOMAIN-SUFFIX,baidupcs.com
@@ -659,8 +630,7 @@ payload:
   - DOMAIN-SUFFIX,hao123.com
   - DOMAIN-SUFFIX,hao123img.com
   - DOMAIN-SUFFIX,jomodns.com
-  - DOMAIN-SUFFIX,yunjiasu-cdn.net
- # 华为
+  - DOMAIN-SUFFIX,yunjiasu-cdn.net # 华为
   - DOMAIN-SUFFIX,dbankcdn.com
   - DOMAIN-SUFFIX,hc-cdn.com
   - DOMAIN-SUFFIX,hicloud.com
@@ -670,8 +640,7 @@ payload:
   - DOMAIN-SUFFIX,huaweishop.net
   - DOMAIN-SUFFIX,hwccpc.com
   - DOMAIN-SUFFIX,vmall.com
-  - DOMAIN-SUFFIX,vmallres.com
- # 闲鱼
+  - DOMAIN-SUFFIX,vmallres.com # 闲鱼
   - DOMAIN-SUFFIX,ewqcxz.com
   - DOMAIN-SUFFIX,hjkhjkl.com
   - DOMAIN-SUFFIX,iopiopl.com
@@ -687,8 +656,7 @@ payload:
   - DOMAIN-SUFFIX,vbmnmy.com
   - DOMAIN-SUFFIX,wsxsdf.com
   - DOMAIN-SUFFIX,xcbbtf.com
-  - DOMAIN-SUFFIX,xianyu.mobi
- # 抖音
+  - DOMAIN-SUFFIX,xianyu.mobi # 抖音
   - DOMAIN-SUFFIX,amemv.com
   - DOMAIN-SUFFIX,douyincdn.com
   - DOMAIN-SUFFIX,douyinpic.com
