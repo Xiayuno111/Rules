@@ -12,6 +12,8 @@ payload:
   - DOMAIN-SUFFIX,tradingview.com
  # CryptoBubble
   - DOMAIN,cryptobubbles.net
+ # 荔枝
+  - DOMAIN-KEYWORD,lizhi
  # Flighty
   - DOMAIN,api.flightyapp.com
  # 苹果天气
