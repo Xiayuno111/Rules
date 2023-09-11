@@ -14,7 +14,7 @@ payload:
   - DOMAIN,nxboom.com
  # 决战羽毛球
   - DOMAIN-SUFFIX,tradplusad.com
-  - DOMAIN-SUFFIX,badmiton.joyient.com
+  - DOMAIN-SUFFIX,badminton.joyient.com
   - DOMAIN-SUFFIX,toblog.ctobsnssdk.com
   - DOMAIN-SUFFIX,api.gameanalytics.com
  # CryptoBubble
