@@ -17,6 +17,10 @@ payload:
   - DOMAIN-SUFFIX,badminton.joyient.com
   - DOMAIN-SUFFIX,toblog.ctobsnssdk.com
   - DOMAIN-SUFFIX,api.gameanalytics.com
+# 学校易购云
+  - DOMAIN-SUFFIX,wrshg.com,DIRECT
+  - DOMAIN-SUFFIX,hgobox.com,DIRECT
+  - DOMAIN-SUFFIX,xdrig.com,DIRECT
  # CryptoBubble
   - DOMAIN,cryptobubbles.net
  # 荔枝
