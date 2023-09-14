@@ -8,6 +8,9 @@ payload:
 ##- IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
  # CN后缀
   - DOMAIN-SUFFIX,cn
+ # Appin小众网站
+  - DOMAIN-SUFFIX,appin.com
+  - DOMAIN-SUFFIX,appin.net
  # TradingView
   - DOMAIN-SUFFIX,tradingview.com
  # 奶昔国内
