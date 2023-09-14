@@ -9,8 +9,8 @@ payload:
  # CN后缀
   - DOMAIN-SUFFIX,cn
  # Appin小众网站
-  - DOMAIN-SUFFIX,appin.com
-  - DOMAIN-SUFFIX,appin.net
+  - DOMAIN-SUFFIX,appinn.com
+  - DOMAIN-SUFFIX,appinn.net
  # TradingView
   - DOMAIN-SUFFIX,tradingview.com
  # 奶昔国内
