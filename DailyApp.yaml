@@ -13,6 +13,8 @@ payload:
   - DOMAIN-SUFFIX,appinn.net
  # TradingView
   - DOMAIN-SUFFIX,tradingview.com
+ # TradingView
+  - DOMAIN,api.newhigh.net
  # 奶昔国内
   - DOMAIN,nxboom.com
  # 决战羽毛球
