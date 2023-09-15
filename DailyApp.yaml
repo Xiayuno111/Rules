@@ -13,7 +13,7 @@ payload:
   - DOMAIN-SUFFIX,appinn.net
  # TradingView
   - DOMAIN-SUFFIX,tradingview.com
- # TradingView
+ # 流海云印
   - DOMAIN,api.newhigh.net
  # 奶昔国内
   - DOMAIN,nxboom.com
@@ -103,13 +103,13 @@ payload:
  # OKX
   - DOMAIN-SUFFIX,okex.com
   - DOMAIN-SUFFIX,okx.com
-  - DOMAIN-KEYWORD,okexapp
-  - DOMAIN-KEYWORD,okcoin
-  - DOMAIN-SUFFIX,appcenter.ms
+  # - DOMAIN-KEYWORD,okexapp
+  # - DOMAIN-KEYWORD,okcoin
+  # - DOMAIN-SUFFIX,appcenter.ms
   - DOMAIN-SUFFIX,appsflyer.com
   - DOMAIN-SUFFIX,onesignal.com
   - DOMAIN-SUFFIX,rong-rtc.com
-  - DOMAIN-SUFFIX,cloudfront.net
+  # - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN-SUFFIX,okcoin.com
   # - DOMAIN,d.*\.net
  # 地址判断 
