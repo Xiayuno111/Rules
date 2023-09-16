@@ -8,6 +8,8 @@ payload:
 ##- IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
  # CN后缀
   - DOMAIN-SUFFIX,cn
+ # 顺丰快递
+  - DOMAIN-SUFFIX,sf-express.com
  # 米家
   - DOMAIN-SUFFIX,xiaomi.com
   - DOMAIN-SUFFIX,xiaomiyoupin.com
