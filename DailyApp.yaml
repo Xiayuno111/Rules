@@ -9,41 +9,20 @@ payload:
  # 
  # CN后缀
   - DOMAIN-SUFFIX,cn
- # Line
-  - DOMAIN-SUFFIX,gcld-line.com
-  - DOMAIN-SUFFIX,lin.ee
-  - DOMAIN-SUFFIX,line-apps-beta.com
-  - DOMAIN-SUFFIX,line-apps-rc.com
-  - DOMAIN-SUFFIX,line-apps.com
-  - DOMAIN-SUFFIX,line-beta.me
-  - DOMAIN-SUFFIX,line-cdn.net
-  - DOMAIN-SUFFIX,line-scdn.net
-  - DOMAIN-SUFFIX,line.biz
-  - DOMAIN-SUFFIX,line.me
-  - DOMAIN-SUFFIX,linecorp.com
-  - DOMAIN-SUFFIX,linefriends.com
-  - DOMAIN-SUFFIX,linefriends.com.tw
-  - DOMAIN-SUFFIX,linegame.jp
-  - DOMAIN-SUFFIX,linemobile.com
-  - DOMAIN-SUFFIX,linemyshop.com
-  - DOMAIN-SUFFIX,lineshoppingseller.com
-  - DOMAIN-SUFFIX,linetv.tw
-  - DOMAIN-SUFFIX,naver.jp
-  - DOMAIN-SUFFIX,nhncorp.jp
-  - IP-CIDR,103.2.28.0/22,no-resolve
-  - IP-CIDR,119.235.224.0/21,no-resolve
-  - IP-CIDR,119.235.232.0/23,no-resolve
-  - IP-CIDR,119.235.235.0/24,no-resolve
-  - IP-CIDR,119.235.236.0/23,no-resolve
-  - IP-CIDR,125.209.208.0/20,no-resolve
-  - IP-CIDR,125.6.146.0/24,no-resolve
-  - IP-CIDR,125.6.149.0/24,no-resolve
-  - IP-CIDR,125.6.190.0/24,no-resolve
-  - IP-CIDR,147.92.128.0/17,no-resolve
-  - IP-CIDR,203.104.103.0/24,no-resolve
-  - IP-CIDR,203.104.128.0/19,no-resolve
-  - IP-CIDR,203.174.66.64/26,no-resolve
-  - IP-CIDR,203.174.77.0/24,no-resolve
+ # Logitech
+  - DOMAIN-SUFFIX,logi.com
+  - DOMAIN-SUFFIX,logicool.co.jp
+  - DOMAIN-SUFFIX,logicoolg.com
+  - DOMAIN-SUFFIX,logitech.biz
+  - DOMAIN-SUFFIX,logitech.com
+  - DOMAIN-SUFFIX,logitech.com.cn
+  - DOMAIN-SUFFIX,logitech.fr
+  - DOMAIN-SUFFIX,logitech.io
+  - DOMAIN-SUFFIX,logitechg.com
+  - DOMAIN-SUFFIX,logitechg.com.cn
+  - DOMAIN-SUFFIX,logitechg.fr
+  - DOMAIN-SUFFIX,logitechio.com.cn
+  - DOMAIN-SUFFIX,worldsfastestgamer.net 
  # 飞猪
   - DOMAIN-SUFFIX,alitrip.com
   - DOMAIN-SUFFIX,asczwa.com
@@ -525,6 +504,10 @@ payload:
  # UnionPay (中国银联)
   - DOMAIN-SUFFIX,95516.com
   - DOMAIN-SUFFIX,95516.net
+  - DOMAIN-SUFFIX,airepay.net
+  - DOMAIN-SUFFIX,chinapay.cn
+  - DOMAIN-SUFFIX,chinapay.com
+  - DOMAIN-SUFFIX,chinapayhongkong.com
   - DOMAIN-SUFFIX,chinaunionpay.com
   - DOMAIN-SUFFIX,chinaunionpay.com.cn
   - DOMAIN-SUFFIX,chinaunionpay.net
