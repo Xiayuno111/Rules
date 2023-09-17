@@ -9,6 +9,8 @@ payload:
  # 
  # CN后缀
   - DOMAIN-SUFFIX,cn
+ # Pdawiki
+  - DOMAIN-SUFFIX,pdawiki.com
  # Logitech
   - DOMAIN-SUFFIX,logi.com
   - DOMAIN-SUFFIX,logicool.co.jp
