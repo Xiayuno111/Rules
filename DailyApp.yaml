@@ -20,6 +20,7 @@ payload:
   - DOMAIN-SUFFIX,wostore.cn
   - DOMAIN-SUFFIX,hxkba.com
   - DOMAIN-SUFFIX,thsi.cn
+  - DOMAIN-SUFFIX,dutils,com
  # TigerTrade
   - DOMAIN-SUFFIX,laohu8.com
   - DOMAIN-SUFFIX,skytigris.cn
