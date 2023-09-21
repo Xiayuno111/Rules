@@ -7,8 +7,16 @@ payload:
 ##- IP-CIDR,118.89.204.198/32,no-resolve
 ##- IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
  # 
+
+
  # CN后缀
   - DOMAIN-SUFFIX,cn
+ # TigerTrade
+  - DOMAIN-SUFFIX,laohu8.com
+  - DOMAIN-SUFFIX,skytigris.cn
+  - DOMAIN-SUFFIX,tigerfintech.com
+  - DOMAIN-SUFFIX,itigergrowtha.com
+  - DOMAIN-SUFFIX,itigerup.com
  # Pdawiki
   - DOMAIN-SUFFIX,pdawiki.com
  # Logitech
