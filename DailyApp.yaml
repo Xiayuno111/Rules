@@ -7,10 +7,19 @@ payload:
 ##- IP-CIDR,118.89.204.198/32,no-resolve
 ##- IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
  # 
+  # - DOMAIN-SUFFIX,,com
+  # - DOMAIN-SUFFIX,,com
+  # - DOMAIN-SUFFIX,,com
 
 
  # CN后缀
   - DOMAIN-SUFFIX,cn
+ # 同花顺
+  - DOMAIN-SUFFIX,10jqka.com.cn
+  - DOMAIN-SUFFIX,hexin.cn
+  - DOMAIN-SUFFIX,wostore.cn
+  - DOMAIN-SUFFIX,hxkba.com
+  - DOMAIN-SUFFIX,thsi.cn
  # TigerTrade
   - DOMAIN-SUFFIX,laohu8.com
   - DOMAIN-SUFFIX,skytigris.cn
