@@ -17,6 +17,8 @@ payload:
   - DOMAIN-SUFFIX,tigerfintech.com
   - DOMAIN-SUFFIX,itigergrowtha.com
   - DOMAIN-SUFFIX,itigerup.com
+  - DOMAIN-SUFFIX,volceapplog.com
+  - DOMAIN-SUFFIX,volccdn.com
  # Pdawiki
   - DOMAIN-SUFFIX,pdawiki.com
  # Logitech
