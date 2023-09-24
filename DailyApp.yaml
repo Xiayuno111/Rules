@@ -11,10 +11,11 @@ payload:
   # - DOMAIN-SUFFIX,.com
   # - DOMAIN-SUFFIX,.com
 
-
  # CN后缀
   - DOMAIN-SUFFIX,cn
- # 百词斩
+ # Weather
+  - DOMAIN,weather.com
+# 百词斩
   - DOMAIN-SUFFIX,baicizhan.com
  # iHasher
   - DOMAIN-SUFFIX,betaflare.com
