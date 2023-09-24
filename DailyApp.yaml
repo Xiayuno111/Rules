@@ -15,7 +15,7 @@ payload:
  # CN后缀
   - DOMAIN-SUFFIX,cn
  # 百词斩
-   - DOMAIN-SUFFIX,baicizhan.com
+  - DOMAIN-SUFFIX,baicizhan.com
  # iHasher
    - DOMAIN-SUFFIX,betaflare.com
  # 迅雷
