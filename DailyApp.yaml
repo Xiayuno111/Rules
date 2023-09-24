@@ -14,7 +14,7 @@ payload:
  # CN后缀
   - DOMAIN-SUFFIX,cn
  # Weather
-  - DOMAIN,weather.com
+  - DOMAIN-SUFFIX,weather.com
 # 百词斩
   - DOMAIN-SUFFIX,baicizhan.com
  # iHasher
