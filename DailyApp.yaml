@@ -17,7 +17,7 @@ payload:
  # 百词斩
   - DOMAIN-SUFFIX,baicizhan.com
  # iHasher
-   - DOMAIN-SUFFIX,betaflare.com
+  - DOMAIN-SUFFIX,betaflare.com
  # 迅雷
   - DOMAIN-SUFFIX,00cdn.com
   - DOMAIN-SUFFIX,155.com
